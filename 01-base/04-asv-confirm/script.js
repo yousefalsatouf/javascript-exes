@@ -11,20 +11,19 @@
 
 (() => {
     // your code here
+    let question1, question2, question3, confirm;
+
+    do {
+        question1 = prompt('Enter Your Age!');
+        question2 = prompt('Enter Your sex!');
+        question3 = prompt('Enter Your city!');
+
+        alert('So your info is ' + '\n Age : ' + question1 +
+            '\n Sex : ' + question2 +
+            '\n City : ' + question3);
+        confirm = prompt('Are you confirming your info? yes/no');
+        if (confirm == "yes") {
+            alert('Done');
+        }
+    } while (confirm == "no");
 })();
-
-let question1, question2, question3, confirm;
-
-do {
-    question1 = prompt('Enter Your Age!');
-    question2 = prompt('Enter Your sex!');
-    question3 = prompt('Enter Your city!');
-
-    alert('So your info is ' + '\n Age : ' + question1 +
-        '\n Sex : ' + question2 +
-        '\n City : ' + question3);
-    confirm = prompt('Are you confirming your info? yes/no');
-    if (confirm == "yes") {
-        alert('Done');
-    }
-} while (confirm == "no")

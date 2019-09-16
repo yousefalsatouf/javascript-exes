@@ -11,8 +11,7 @@
 
 (() => {
     // your code here
+    let helloThere = "Hello World";
+
+    alert(helloThere);
 })();
-
-let helloThere = "Hello World";
-
-alert(helloThere);

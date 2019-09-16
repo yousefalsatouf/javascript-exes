@@ -11,12 +11,11 @@
 
 (() => {
     // your code here
+    let question = prompt('Would you like some Cake? oui/non');
+
+    if (question == "oui") {
+        alert('Goood choice!');
+    } else {
+        alert('Dude!, it is a cake!');
+    }
 })();
-
-let question = prompt('Would you like some Cake? oui/non');
-
-if (question == "oui") {
-    alert('Goood choice!');
-} else {
-    alert('Dude!, it is a cake!');
-}
