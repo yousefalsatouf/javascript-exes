@@ -6,15 +6,12 @@ let multiplicateur = 1;
 let result = 0;
 click.addEventListener("click", function() {
     if (multiplicateur == 1) {
-        //console.log(multiplicateur);
-        score++;
-        result = score;
+        result = score++;
+        output.innerHTML = result;
     } else {
-        //console.log(multiplicateur);
-        score + multiplicateur;
-        result = score;
+        result += score + multiplicateur;
+        output.innerHTML = result;
     }
-    output.innerHTML = result;
 });
 
 multi.addEventListener("click", augmenterMultiplicateur);

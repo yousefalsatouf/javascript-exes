@@ -34,7 +34,7 @@
         fruits.push("kiwi");
 
         fruits.forEach(e => {
-            console.log(e);
+            console.tab(e);
         });
     });
 })();

@@ -16,8 +16,10 @@
             result = 0;
 
         for (let i = 1; i <= 21; i++) {
-            result = i * i;
-            msg = msg + " " + i + " * " + i + " = " + result + "\n";
+            if (i % 2 == 0) {
+                result = i ** 2;
+                msg = msg + " " + i + " * " + i + " = " + result + "\n";
+            }
         }
 
         alert(msg);
