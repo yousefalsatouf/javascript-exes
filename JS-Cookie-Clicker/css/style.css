@@ -1,0 +1,35 @@
+body {
+    background-color: #46abe1;
+    margin: auto
+}
+
+.container {
+    max-width: 50%;
+    margin: auto;
+    padding: 5rem;
+}
+
+#affichage {
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 5rem;
+}
+
+.btns {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around
+}
+
+button {
+    background-color: #b5def4;
+    border: 1px solid #b5def4;
+    font-size: 1rem;
+    font-weight: 900;
+    color: white;
+    padding: 1rem
+}
